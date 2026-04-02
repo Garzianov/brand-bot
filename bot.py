@@ -6,7 +6,7 @@ from telegram import Update
 from telegram.ext import Application, MessageHandler, filters, ContextTypes
 
 TELEGRAM_TOKEN = "8789896507:AAFnPz3n761e8tva4u5-OpWjlzBIr_EnN7A"
-GEMINI_API_KEY = "AIzaSyCCU5l_b3FBwPTvCKOLIhSfwwkSpzDqiWQ"
+GEMINI_API_KEY = "AIzaSyDdI3klq9OUG2THBT6cZ9n145u9MM-oNfo"
 GITHUB_TOKEN   = "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"
 GITHUB_USER    = "Garzianov"
 GITHUB_REPO    = "brand-database"
