@@ -30,7 +30,7 @@ Formato esatto:
 Per categoria usa solo uno di questi valori esatti: "Make-up & Cosmetica", "Abbigliamento", "Ristoranti / Bar"
 Per followers converti: 10,5 mila = 10500, 1,2M = 1200000"""
 
-    gemini_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
+    gemini_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key={GEMINI_API_KEY}"
     payload = {
         "contents": [{
             "parts": [
